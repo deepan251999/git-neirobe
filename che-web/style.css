@@ -129,3 +129,293 @@ height: 500px;
 .about-contain h2{
     line-height: 1.9;
 }
+.about-contain p{
+    color: #8a8b8c;
+    font-size: 15px;
+    padding: 0 0 10px 0;
+}
+.about-contain button{
+    padding: 13px 20px ;
+    background:rgb(240, 142, 23) ;
+    border-radius: 1px;
+    border: none;
+    color: #fff;
+
+}
+
+/* SERVICES  */
+.service-main-container{
+    width: 100%;
+    background: rgb(247, 229, 221);
+    padding: 50px 0;
+}
+.service-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.service-container h2{
+    padding: 50px 0 0 0;
+}
+.service-container h2::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 30px;
+    background-color: rgb(240, 142, 23);
+    top: 80px;
+    left: 49%;
+}
+.service-container h6{
+    padding: 20px 20% 0 20% ;
+    line-height: 1.6;
+    color: #8a8b8c;
+    font-size: 13px;
+}
+.service-box-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.service-item{
+    width: 30%;
+    box-shadow: 2px 2px 10px rgb(203, 190, 190);
+    margin: 20px 0 0 0;
+    background: #fff;
+    padding: 40px 35px;
+    text-align: start;
+}
+.service-item i{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px 0;
+    color: rgb(240, 142, 23);
+}
+.service-item h4{
+    padding: 10px 0;
+}
+.service-item p{
+    color: #8a8b8c;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* skills */
+.skill-main-container{
+    width: 100%;
+    padding: 50px 0;
+}
+.skill-container{
+    width: 80%;
+    margin: auto;
+}
+.skill-box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-item{
+    position: relative;
+    width: 30%;
+}
+.skill-item h2::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 30px;
+    background-color: rgb(240, 142, 23);
+    top: 35px;
+    left: 1%;
+}
+.skill-box-container2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 40px 0;
+}
+.skill-item1{
+   padding: 30px 30px 30px 30px;
+    width: 30%;
+    background: rgb(240, 142, 23);
+    color: #fff;
+    box-shadow: 2px 2px 10px rgb(232, 189, 189);
+}
+.skill-item2{
+    padding: 30px 30px 30px 30px;
+    width: 30%;
+    background: black;
+    color: #fff;
+}
+.skill-item3{
+    padding: 30px 30px 30px 30px;
+    width: 30%;
+    background: rgb(247, 229, 221);
+}
+.skill-item1 button{
+    padding: 6px 20px;
+    background: black;
+    border-radius: 15px;
+    margin: 30px 0 0 0;
+    color: #fff;
+}
+.skill-item1 h3{
+    padding: 10px 0;
+}
+.skill-item1 p{
+    padding: 0 0 20px 0;
+}
+hr{
+    border-color: rgba(246, 214, 180, 0.66);
+}
+.skill-item2 button{
+    padding: 6px 20px;
+    background: rgb(240, 142, 23);
+    color: #fff;
+    border-radius: 15px;
+    margin: 30px 0 0 0;
+}
+.skill-item2 h3{
+    padding: 10px 0;
+}
+.skill-item2 p{
+    padding: 0 0 20px 0;
+}
+.skill-item3 label{
+    display: block;
+    padding: 30px 0 10px 0;
+}
+.skill-item3 progress{
+    height: 10px;
+    width: 100%;
+    border-radius:0;
+}
+progress[value]::-webkit-progress-bar{
+    background-color: #000;
+}
+progress[value]::-webkit-progress-value{
+    background-color: rgb(240, 142, 23);
+}
+
+            /* PORTFOLIO */
+.portfoilio-main-container{
+    width: 100%;
+    padding: 50px 0;
+    background: rgb(247, 229, 221);
+}
+.portfolio-container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.portfolio-container h2{
+    padding: 50px 0 0 0;
+}
+.portfolio-container h2::before{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 30px;
+    background-color: rgb(240, 142, 23);
+    top: 80px;
+    left: 49%;
+}
+.portfolio-container h6{
+    padding: 20px 20% 0 20% ;
+    line-height: 1.6;
+    color: #8a8b8c;
+    font-size: 13px;
+}
+.portfolio-box-container{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 10px 0;
+    position: relative;
+}
+.portfolio-box-container h5::after{
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 20px;
+    background-color: rgb(240, 142, 23);
+    top: 68px;
+    left: 8%;
+}
+.portfolio-box-container1{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 40px 0;
+}
+.portfolio-item{
+    width: 30%;
+    height: 300px;
+    margin: 10px 0;
+    text-align: start;
+}
+.portfolio-img1{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-1.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-img2{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-2.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-img3{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-3.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-img4{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-4.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-img5{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-5.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-img6{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background: url(./images/portfolio-6.jpg);
+    background-size: cover;
+    padding: 4px 20px ;
+}
+.portfolio-item P{
+    font-size: 13PX;
+    color: #8a8b8c;
+}
+                /* SLIDES */
+.slides-main-container{
+
+}
+.slides-container{
+
+}
+.slide-item{
+    
+}
